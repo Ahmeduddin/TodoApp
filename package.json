@@ -1,0 +1,29 @@
+{
+  "name": "todoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^1.13.4",
+    "fastify-jwt": "^0.9.1",
+    "fastify-nodemailer": "^3.0.0",
+    "fastify-plugin": "^1.4.0",
+    "fastify-swagger": "^1.0.0",
+    "firebase-admin": "^6.5.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.5",
+    "nodemailer": "^5.1.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
